@@ -2,7 +2,7 @@
 
 ### Input description
 
-A set S of strings S1,...,Sn 
+A set S of strings S1,...,Sn
 
 ### Problem description
 
