@@ -1,36 +1,26 @@
-# lcs_st_clojure
+# LCS using suffix tree 
 
-FIXME: description
+## Dependencies
 
-## Installation
-
-Download from http://example.com/FIXME.
+ * [Leiningen](http://leiningen.org/)
 
 ## Usage
 
-FIXME: explanation
+You can run the program directly with leiningen passing the set of strings as arguments doing:
 
-    $ java -jar lcs_st_clojure-0.1.0-standalone.jar [args]
+```bash
+   $ lein run GCAAGTCTAATA CAAGGTTATATA GCAATTCTATAA CAATTGATATAA GCAATCATATAT
+```
 
-## Options
+Or you can compile the source:
 
-FIXME: listing of options this app accepts.
+```bash
+   $ lein compile
+   $ lein uberjar
+```
 
-## Examples
+And then run it from the jar
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```bash
+    $ java -jar target/uberjar/lcs-0.1.0.jar GCAAGTCTAATA CAAGGTTATATA GCAATTCTATAA CAATTGATATAA GCAATCATATAT 
+```
