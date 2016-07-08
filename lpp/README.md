@@ -6,9 +6,11 @@ An arrangement S of nonnegative numbers {S1, ... , Sn} and an integer K.
 
 ### Problem description
 
-Partition S into Kor fewer ranges, to minimize the maximun sum over all the ranges, without reordering any of the numbers.
+Partition S into K or fewer ranges, to minimize the maximun sum over all the ranges, without reordering any of the numbers.
 
 ### Example
+
+Imagine that each bucket is a book of X pages:
 
 S = {100,200,300,400,500,600,700,800,900}
 
